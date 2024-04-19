@@ -1,0 +1,74 @@
+.header {
+    -unity-font: url('project://database/Assets/TextMesh%20Pro/Examples%20&%20Extras/Fonts/Electronic%20Highway%20Sign.TTF?fileID=12800000&guid=8a2b9e2a607dd2143b58c44bc32410b4&type=3#Electronic Highway Sign');
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    -unity-text-align: middle-center;
+    height: 38px;
+    width: 335px;
+    margin-bottom: 10px;
+}
+
+.slots {
+    flex-grow: 1;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container {
+}
+
+.inventory {
+}
+
+.slotContainer {
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border-left-color: rgb(48, 48, 48);
+    border-right-color: rgb(48, 48, 48);
+    border-top-color: rgb(48, 48, 48);
+    border-bottom-color: rgb(48, 48, 48);
+    background-color: rgb(9, 19, 21);
+    background-image: url('project://database/Assets/Sprites/ItemSlotBackground.png?fileID=2800000&guid=631157dc22403e6409d12c7e6eb2e574&type=3#ItemSlotBackground');
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.highlighted {
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border-left-color: rgb(48, 48, 48);
+    border-right-color: rgb(48, 48, 48);
+    border-top-color: rgb(48, 48, 48);
+    border-bottom-color: rgb(48, 48, 48);
+    background-color: rgb(9, 19, 21);
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    background-image: url('project://database/Assets/Sprites/highlighted.png?fileID=2800000&guid=67b3badd3a4c9ff40963c183af22e590&type=3#highlighted');
+}
+
+.slotIcon {
+    padding: 15px;
+    flex-shrink: 0;
+    flex-grow: 1;
+}
+
+.hotbar {
+    flex-grow: 1;
+    width: 320px;
+    height: 80px;
+    max-height: 80px;
+    justify-content: flex-start;
+    align-self: center;
+    align-items: auto;
+    background-image: url('project://database/Assets/Sprites/hotbar.png?fileID=2800000&guid=15272da175b4ecc45a31a763cbb3966e&type=3#hotbar');
+    position: relative;
+    top: 82%;
+    left: auto;
+    right: 32%;
+}

@@ -14,4 +14,5 @@ A small dungeon crawler originally made for the Dungeon Crawler 2024 Game Jam. O
 - Roguelike Elements
 
 ### Systems Used:
-[Silverlybee's Dungeon Generator](https://github.com/silverlybee/dungeon-generator)
+- [Silverlybee's Dungeon Generator](https://github.com/silverlybee/dungeon-generator)
+- [LlamaAcademy's AI](https://github.com/llamacademy/ai-series-part-50)
